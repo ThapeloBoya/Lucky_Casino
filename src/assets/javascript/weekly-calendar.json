@@ -1,0 +1,370 @@
+[
+    {
+      "day": "Saturday",
+      "date": "01 April 2025",
+      "offer": {
+        "title": "Super Saturdays",
+        "description": "Max Out your Saturday!",
+        "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },
+    {
+      "day": "Sunday",
+      "date": "02 April 2025",
+      "offer": {
+        "title": "Sunny Sundays",
+        "description": "Super Sunday Special!",
+       "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },
+    {
+      "day": "Monday",
+      "date": "03 April 2025",
+      "offer": {
+        "title": "Milky Way Mondays",
+        "description": "Jumpstart Your Week!",
+        "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },
+    {
+      "day": "Tuesday",
+      "date": "04 April 2025",
+      "offer": {
+        "title": "Titanic Tuesdays",
+        "description": "Tuesday Turn up  the Fun!",
+        "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },
+    {
+      "day": "Wednesday",
+      "date": "05 April 2025",
+      "offer": {
+        "title": "Wonder Wednesdays",
+        "description": "Win Big Wednesday!",
+        "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },
+    {
+      "day": "Thursday",
+      "date": "06 April 2025",
+      "offer": {
+        "title": "Thrilling Thursdays",
+        "description": "Turbocharge Your Thursday!",
+        "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },  {
+      "day": "Friday", 
+      "date": "07 April 2025",
+      "offer": {
+        "title": "Fantastic Fridays",
+        "description": "Feel-Good Friday!",
+        "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },
+    {
+      "day": "Saturday",
+      "date": "08 April 2025",
+      "offer": {
+        "title": "Super Saturdays",
+        "description": "Max Out your Saturday!",
+        "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },
+    {
+      "day": "Sunday",
+      "date": "09 April 2025",
+      "offer": {
+        "title": "Sunny Sundays",
+        "description": "Super Sunday Special!",
+       "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },
+    {
+      "day": "Monday",
+      "date": "10 April 2025",
+      "offer": {
+        "title": "Milky Way Mondays",
+        "description": "Jumpstart Your Week!",
+        "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },
+    {
+      "day": "Tuesday",
+      "date": "11 April 2025",
+      "offer": {
+        "title": "Titanic Tuesdays",
+        "description": "Tuesday Turn up  the Fun!",
+        "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },
+    {
+      "day": "Wednesday",
+      "date": "12 April 2025",
+      "offer": {
+        "title": "Wonder Wednesdays",
+        "description": "Win Big Wednesday!",
+        "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },
+    {
+      "day": "Thursday",
+      "date": "13 April 2025",
+      "offer": {
+        "title": "Thrilling Thursdays",
+        "description": "Turbocharge Your Thursday!",
+        "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },  {
+      "day": "Friday", 
+      "date": "14 April 2025",
+      "offer": {
+        "title": "Fantastic Fridays",
+        "description": "Feel-Good Friday!",
+        "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },
+    {
+      "day": "Saturday",
+      "date": "15 April 2025",
+      "offer": {
+        "title": "Super Saturdays",
+        "description": "Max Out your Saturday!",
+        "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },
+    {
+      "day": "Sunday",
+      "date": "16 April 2025",
+      "offer": {
+        "title": "Sunny Sundays",
+        "description": "Super Sunday Special!",
+       "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },
+    {
+      "day": "Monday",
+      "date": "17 April 2025",
+      "offer": {
+        "title": "Milky Way Mondays",
+        "description": "Jumpstart Your Week!",
+        "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },
+    {
+      "day": "Tuesday",
+      "date": "18 April 2025",
+      "offer": {
+        "title": "Titanic Tuesdays",
+        "description": "Tuesday Turn up  the Fun!",
+        "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },
+    {
+      "day": "Wednesday",
+      "date": "19 April 2025",
+      "offer": {
+        "title": "Wonder Wednesdays",
+        "description": "Win Big Wednesday!",
+        "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },
+    {
+      "day": "Thursday",
+      "date": "20 April 2025",
+      "offer": {
+        "title": "Thrilling Thursdays",
+        "description": "Turbocharge Your Thursday!",
+        "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },  {
+      "day": "Friday", 
+      "date": "21 April 2025",
+      "offer": {
+        "title": "Fantastic Fridays",
+        "description": "Feel-Good Friday!",
+        "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },
+    {
+      "day": "Saturday",
+      "date": "22 April 2025",
+      "offer": {
+        "title": "Super Saturdays",
+        "description": "Max Out your Saturday!",
+        "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },
+    {
+      "day": "Sunday",
+      "date": "23 April 2025",
+      "offer": {
+        "title": "Sunny Sundays",
+        "description": "Super Sunday Special!",
+       "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },
+    {
+      "day": "Monday",
+      "date": "24 April 2025",
+      "offer": {
+        "title": "Milky Way Mondays",
+        "description": "Jumpstart Your Week!",
+        "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },
+    {
+      "day": "Tuesday",
+      "date": "25 April 2025",
+      "offer": {
+        "title": "Titanic Tuesdays",
+        "description": "Tuesday Turn up  the Fun!",
+        "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },
+    {
+      "day": "Wednesday",
+      "date": "26 April 2025",
+      "offer": {
+        "title": "Wonder Wednesdays",
+        "description": "Win Big Wednesday!",
+        "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },
+    {
+      "day": "Thursday",
+      "date": "27 April 2025",
+      "offer": {
+        "title": "Thrilling Thursdays",
+        "description": "Turbocharge Your Thursday!",
+        "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },  {
+      "day": "Friday", 
+      "date": "28 April 2025",
+      "offer": {
+        "title": "Fantastic Fridays",
+        "description": "Feel-Good Friday!",
+        "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },
+    {
+      "day": "Saturday",
+      "date": "29 April 2025",
+      "offer": {
+        "title": "Super Saturdays",
+        "description": "Max Out your Saturday!",
+        "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },
+    {
+      "day": "Sunday",
+      "date": "30 April 2025",
+      "offer": {
+        "title": "Sunny Sundays",
+        "description": "Super Sunday Special!",
+       "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    },
+    {
+      "day": "Monday",
+      "date": "31 April 2025",
+      "offer": {
+        "title": "Milky Way Mondays",
+        "description": "Jumpstart Your Week!",
+        "details": "🔥 Unlock a 500% Bonus + 75 Free Spins! 🔥 Start your winning streak today!<br><br><i>Terms and conditions apply</i>",
+        "backgroundImage": "https://t4.ftcdn.net/jpg/09/76/79/91/240_F_976799194_8guLTYKZs3ZfNR69wwrDjKRMmbXVijr4.jpg",
+        "modalBackgroundImage": "https://t3.ftcdn.net/jpg/07/59/31/86/240_F_759318692_zDsKq2Xm3cclGGdmbQhWGvJX001HtbFK.jpg",
+        "active": false
+      }
+    }
+  ]
