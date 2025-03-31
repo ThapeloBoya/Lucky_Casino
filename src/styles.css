@@ -1,0 +1,89 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/* styles.css or styles.scss */
+
+
+
+html, body {
+  height: 100%; /* Full height for the page */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  font-family: 'Inter', sans-serif;
+    width: 100%;
+  position: relative;
+  margin-top: auto; /* Pushes footer to the bottom
+  background-color: #ec5228!important; */
+}
+
+.page-row {
+  padding: 20px 0;
+}
+/* Make the wrapping div sticky */
+.sticky-header-container {
+  position: sticky;
+  top: 0;
+  z-index: 1000;  /* Ensures it stays on top */
+  background-color: #fff;  /* Optional: Set background color */
+}
+
+/* You can also style the header inside the div */
+app-header {
+  width: 100%;
+  /* padding: 10px 20px;  Adjust padding if needed */
+}
+
+.page-body{
+  padding: 30px 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.sub-page-header h1{
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #ec5228;
+  padding: 20px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.page-row p{
+  color:#fff;
+  font-weight: 400;
+}
+
+.page-row a{
+  color: #ec5228;
+  font-weight: 400;
+  text-decoration: none;
+}
+.page-row h2{
+  color: #ec5228;
+  font-size: 24px;
+}
+.page-row h3{
+  color: #ec5228;
+  font-size: 18px;
+
+}
+.page-row ul li{
+  color: #fff;
+}
+.page-row ol li{
+  color: #fff;
+}
+.image-left {
+  float: left;
+  padding-right: 15px;
+  width: 300px !important;
+  margin-bottom: 3px;
+}
+.image-left-margin{
+    margin-right:20px;
+}
+
+.image-right {
+  float: right;
+  width: 300px !important;
+}
