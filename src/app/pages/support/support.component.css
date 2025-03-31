@@ -1,0 +1,187 @@
+/* Ensure the header stays on top */
+
+/* Make the wrapping div sticky */
+.sticky-header-container {
+  position: sticky;
+  top: 0;
+  z-index: 1000;  /* Ensures it stays on top */
+  background-color: #fff;  /* Optional: Set background color */
+}
+
+/* You can also style the header inside the div */
+app-navbar {
+  width: 100%;
+  padding: 10px 20px;  /* Adjust padding if needed */
+}
+
+/* Specific styles for the contact support page */
+.contact-support-page-container {
+  text-align: center;
+  padding: 30px 0 50px 0;
+  margin-top: 40px;
+}
+
+.contact-support-page-header {
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  font-weight: bolder;
+  color: #ec5228;
+  padding:10px 0;
+  text-transform: uppercase;
+}
+
+.contact-support-page-casino-name {
+  font-size: 25px;
+  display: block;
+  margin: 30px 0 -10px 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.contact-support-page-dummy-text {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 1100px;
+  line-height: 1.5;
+  font-weight: 450;
+}
+
+.contact-support-page-get-in-touch {
+  font-size: 25px;
+  margin-top: 30px;
+  font-weight: bolder;
+  color: #ec5228;
+}
+
+.contact-support-page-header-box {
+  max-height: 100%;
+  margin: 80px auto 60px auto;
+  padding: 15px;
+  border: 1px solid #ccc;
+  text-align: center;
+  background: linear-gradient(180deg, #ec5228, #EB5B00);
+  border-radius: 30px;
+  width: 87%;
+}
+
+.image-support-div {
+  height: 250px;
+  display: flex; /* Enable flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.image-support-div img {
+  width: 60%; /* Control the image size */
+}
+
+
+.contact-support-page-cards-container {
+  display: flex;
+  justify-content: center;
+gap: 30px;
+  margin-top: 30px;
+
+}
+
+.contact-support-page-card {
+  width: 350px;
+  padding: 20px 20px;
+  background: linear-gradient(180deg, #ec5228, #EB5B00);
+  border-radius: 20px;
+  text-align: center;
+ 
+}
+
+.contact-support-page-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color:#FFF
+}
+
+.contact-support-page-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  COLOR: #fff;
+}
+
+.contact-support-page-card-description {
+  color: #FFF;
+text-align: center;
+font-size: 12px;
+font-weight: 500;
+line-height: 2.5; /* 210.101% */
+letter-spacing: 0.36px;
+}
+
+.contact-support-page-chat-button {
+  border-radius: 40px;
+background: linear-gradient(92deg, #FFF 2.08%, #E0A000 117.25%);
+  border: none;
+  padding: 6px 40px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: -10px;
+  color: #ec5228;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.contact-support-page-chat-button:hover {
+  background-color: #ffb800;
+}
+
+
+@media (max-width: 768px) {
+  .contact-support-page-header-box {
+    margin: 60px auto 15px auto; /* Adjust margins for smaller screens */
+    width: 95%; /* Increase width on smaller screens */
+  }
+
+  .image-support-div {
+    height: 120px; /* Reduce image container height on smaller screens */
+  }
+
+  .image-support-div img {
+    width: 80%; /* Make the image larger on smaller screens */
+  }
+  .contact-support-page-cards-container {
+    flex-direction: column; /* Stack the cards vertically on smaller screens */
+    align-items: center; /* Center-align cards */
+  }
+
+  .contact-support-page-card {
+    width: 100%; /* Make the cards full width */
+    max-width: 400px; /* Max width for better scaling */
+    margin-bottom: 20px; /* Space between stacked cards */
+  }
+
+  .contact-support-page-card-description {
+    font-size: 14px; /* Slightly larger text for readability on smaller screens */
+  }
+
+  .contact-support-page-chat-button {
+    width: 100%; /* Make button full-width */
+    padding: 10px 20px; /* Adjust padding */
+  }
+}
+
+
+/* Smaller devices (Mobile-first) */
+@media screen and (max-width: 480px) {
+  .contact-support-page-icon {
+    font-size: 30px; /* Adjust icon size for smaller screens */
+  }
+
+  .contact-support-page-card-title {
+    font-size: 16px; /* Smaller title size */
+  }
+
+  .contact-support-page-card-description {
+    font-size: 12px; /* Adjust description text for small screens */
+  }
+
+  .contact-support-page-chat-button {
+    padding: 8px 20px; /* Adjust button padding */
+  }
+}

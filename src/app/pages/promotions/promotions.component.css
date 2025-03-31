@@ -1,0 +1,280 @@
+.page-body {
+  padding: 20px;
+}
+
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sub-page-header h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: #ec5228;
+  padding: 10px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+hr.divider {
+  margin: 20px 0;
+}
+
+.page-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.promo-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; /* Center cards */
+  width: 100%;
+}
+
+.promo-card {
+  width: 30%; /* Desktop grid layout */
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  background: linear-gradient(180deg, #ec5228, #eb5b00);
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  
+  /* Consistent layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  padding-bottom: 50px; /* Space for button */
+  min-height: 300px;
+}
+
+.promo-card:hover {
+  transform: scale(1.05);
+}
+
+.promo-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+.promo-card-content {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.promo-card-content p {
+  font-size: 1rem;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.promo-card-actions {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.button-rounded {
+  background-color: #ec5228;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 500;
+}
+
+.button-rounded:hover {
+  background-color: #ef9815;
+  color: #000;
+}
+
+.sub-page-header {
+  color: #ec5228;
+  margin: 40px 0 0 0;
+  font-weight: 900;
+}
+
+
+/* RESPONSIVE STYLES */
+@media (max-width: 1024px) {
+  .promo-card {
+    width: 45%; /* Two cards per row on tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .promo-card {
+    width: 45%; /* Two cards per row on tablets */
+    padding-bottom: 60px; /* Space for button */
+  }
+}
+
+@media (max-width: 480px) {
+  .page-body {
+    padding: 10px; /* Reduce padding */
+  }
+
+  .promo-container {
+    gap: 10px; /* Reduce gaps */
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: space-between; /* Space between cards */
+  }
+
+  .promo-card {
+    width: 100%!important; /* Full width for mobile */
+    min-height: 280px; /* Adjust card height */
+  }
+
+  .promo-card-content p {
+    font-size: 0.9rem;
+    padding: 5px 0;
+  }
+
+  .button-rounded {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  .promo-card-actions {
+    bottom: 5px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ✅ Centered and Reduced Width Accordion */
+.text-header {
+  color: #585756;
+  text-align: center;
+  font-size: 20px;
+}
+/* Accordion CSS  */
+.accordion {
+  background: #e8e8e8;
+  border-radius: 20px;
+  border: 0px;
+  font-size: 16px!important;
+  margin: 10px  auto 0;
+  padding: 20px 30px;
+  margin-bottom: 0;
+  cursor: pointer;
+  width:90%;
+}
+/* Apply #e8e8e8 to even accordion items */
+details:nth-child(even) > .accordion {
+background-color: #fff;
+}
+
+/* Apply white to odd accordion items */
+details:nth-child(odd) > .accordion {
+background-color: #e8e8e8;
+}
+
+.page-row{
+  padding:20px 0;
+}
+.accordionDrop {
+  padding: 25px 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #d9d9d9;
+  width:89%;
+  margin: 0  auto 0;
+  font-size: 14px;
+  color:#585756
+}
+
+details[open] > summary {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+details[open] > .accordionDrop {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+
+/* ✅ Hide Default Browser Arrow */
+::-webkit-details-marker {
+  display: none;
+}
+
+/* ✅ Accordion Clickable Header */
+details summary {
+  cursor: pointer;
+}
+
+details summary > * {
+  display: inline;
+}
+
+.faq-header {
+  font-family: 'Poppins', sans-serif; /* Add Poppins font */
+  font-size: 32px;
+  font-weight: bold;
+  color: #eb5b00;
+  margin-bottom: 15px;
+}
+
+.faq-description {
+  font-size: 18px;
+  color: #444;
+ 
+  line-height: 1.8;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.faq-container {
+  max-width: 1200px; /* ✅ Wider */
+  width: 100%;
+  margin: 40px auto;
+  /* padding: 30px 20px; */
+  text-align: center;
+}
+.faq{
+  margin-bottom:30px;
+}
+
+/* ✅ Mobile Fix: Ensure Accordion Drop is NOT Bigger */
+@media screen and (max-width: 600px) {
+  .accordion {
+    font-size: 18px; /* 🔹 Adjusted for smaller screens */
+    width: 95%; /* 🔹 Increase width slightly for mobile */
+    padding: 20px; /* 🔹 Reduce padding for smaller screens */
+  }
+
+  .accordionDrop {
+    padding: 20px; /* 🔹 Reduce drop content padding */
+    width: 91%; /* 🔹 Match accordion width */
+    max-width: 95%; /* 🔹 Prevent it from being larger */
+  }
+}
+
+.text-headers{
+  font-size: 25px;
+  font-weight:600;
+  color:#353535
+}

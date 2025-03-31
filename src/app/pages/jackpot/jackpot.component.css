@@ -1,0 +1,119 @@
+
+/* You can also style the header inside the div */
+app-navbar {
+  width: 100%;
+  padding: 10px 20px;  /* Adjust padding if needed */
+}
+
+.page-body {
+  margin: 20px 0 -40px 0;
+}
+
+.sub-page-header {
+  text-align: center;
+  margin: 60px 0 20px 0;
+}
+
+.sub-page-header h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  font-weight: bolder;
+  color: #0E6A38;
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+
+.page-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.games-card {
+  width: 45%;  /* Makes each card 45% of the width of its parent */
+  margin-bottom: 20px;  /* Adds space between rows */
+  position: relative;
+  overflow: hidden;  /* Ensures the overlay doesn't overflow outside the card */
+  cursor: pointer; /* Makes it clear it's interactive */
+}
+
+.filter-image {
+  width: 100%;  /* Ensures the image takes the full width of the card */
+  height: auto;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.play-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 95%;  /* Full overlay */
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;  /* Initially hidden */
+  transition: opacity 0.3s ease;
+  border-radius: 30px;
+}
+
+/* Play Icon */
+.play-icon {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  pointer-events: none;
+  opacity: 0;  /* Initially hidden */
+  transition: opacity 0.3s ease;
+}
+
+/* Hover effect: Show the overlay and icon */
+.games-card:hover .play-overlay {
+  opacity: 1; /* Show the overlay on hover */
+}
+
+.games-card:hover .play-icon {
+  opacity: 1; /* Show the play icon on hover */
+}
+
+.card-content {
+  position: absolute;
+  bottom: 0; /* Position the content at the bottom */
+  left: 50%; /* Position from the left edge */
+  transform: translateX(-50%); /* Center the content horizontally */
+  width: 90%; /* Ensure the content spans 80% of the card width */
+  background: linear-gradient(45deg, #ec5228, #eb5b00); /* Orange gradient background */
+ /* Orange gradient background */
+ /* Green gradient background */
+  color: #fff; /* White text color */
+  text-align: center;
+  padding: 0 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 30px; /* Rounded corners at the bottom */
+}
+
+.card-content p {
+  display: flex; /* Enable flexbox */
+  justify-content: center; /* Center the text horizontally */
+  align-items: center;
+  margin-bottom: 7px;
+  margin-top: 5px;
+}
+
+.card-div {
+  margin-top: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .games-card {
+    width: 100%;  /* Adjust width for smaller screens */
+  }
+
+}

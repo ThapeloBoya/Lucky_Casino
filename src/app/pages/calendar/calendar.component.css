@@ -1,0 +1,728 @@
+
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  line-height: 1.31;
+  font-weight: 400;
+  overscroll-behavior: contain;
+  -webkit-text-size-adjust: 100%;
+  font-kerning: normal;
+  font-variant-ligatures: contextual common-ligatures;
+  font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
+  overflow-x: hidden;
+  font-size: 14px;
+  height: 100%; /* Full height for the page */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+/* Add Line Between Payments & Footer Bottom */
+.footer-divider {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 20px 0;
+}
+body.menu-opened, body.modal-opened {
+  overflow: hidden;
+}
+.sub-page-header h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: #ec5228;
+  padding: 30px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+  line-height: normal;
+  color: inherit;
+  margin: 0;
+  font-weight: 700;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+ul, ol, dl {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+dt, dd {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  min-height: 1rem;
+}
+
+p:first-child {
+  margin-top: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ec5228;
+  margin: 0.71429rem 0rem;
+  padding: 0;
+}
+
+a {
+  color: #ec5228;
+  text-decoration: none;
+  transition: 0.135s color ease;
+}
+
+a:hover {
+  color: #ec5228;
+  text-decoration: none;
+}
+
+
+.text-primary {
+  color: #ec5228;
+}
+.sub-page-header{
+  color:#ec5228;
+  margin:40px 0 0 0;
+  font-weight: bolder;
+}
+.item,.item.past  {
+  background-color: #ec5228 !important;
+}
+
+
+
+.calendar-page-body {
+  background-color: #ec5228 !important;
+  background-image: url('/assets/images/calenderBack.jpeg'); /* Correct path */
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents tiling */
+}
+
+
+.sub-page-header span{
+  color:#ec5228;
+}
+.text-purple {
+  color: #cc83ea;
+}
+
+@keyframes load8 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.layout {
+  height: 100%;
+  padding-top: 4.57143rem;
+}
+
+@media (min-width: 1025px) {
+  .layout {
+    padding-top: 4rem;
+  }
+}
+
+.page-container {
+  width: calc(100% - 20px);
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: -webkit-sticky;
+  padding: 0 25px;
+}
+
+.promo-item {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.promo-container {
+  position: relative;
+  overflow: visible; /* Ensure children are not clipped */
+}
+
+.promo-title {
+  position: relative;  /* Ensures the title is positioned correctly */
+  z-index: 10;  /* Higher z-index to ensure it's above other elements */
+  color: #fff;  /* White color for visibility */
+  padding: 5px;  /* Padding for better spacing */
+  margin-top: -7em;  /* Space above the title */
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.promo-date {
+  margin-bottom: 10px;
+  display: block;
+  z-index: 5;  /* Lower z-index than the title */
+}
+
+.img img {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.description {
+  margin-top: 8px;
+  font-size: 0.8rem;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px;
+  border-radius: 4px;
+  z-index: 2;
+  width: 90%;
+  text-align: center;
+  line-height: 1;
+}
+
+.modal-content {
+  overflow: visible;
+  height: auto;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .promo-title {
+    font-size: 8px; /* Adjust font size for mobile view */
+    margin-top: -8em; /* Adjust margin-top if needed */
+  }
+}
+
+@media (max-width: 768px) {
+  .promo-date {
+    font-size: 0.6rem !important;
+  }
+
+  .description {
+    font-size: 0.4rem;
+    bottom: 5px;
+    padding: 3px;
+    width: 95%;
+    line-height: 1.5;
+  }
+}
+
+.calendar {
+  margin: -0.14286rem;
+  display: grid;
+  grid-template-columns: repeat(3, 33.33333%);
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .calendar {
+    grid-template-columns: repeat(4, 25%);
+  }
+}
+
+@media (min-width: 1025px) {
+  .calendar {
+    grid-template-columns: repeat(5, 20%);
+  }
+}
+
+@media (min-width: 1200px) {
+  .calendar {
+    grid-template-columns: repeat(6, 16.66667%);
+  }
+}
+
+@media (min-width: 1400px) {
+  .calendar {
+    grid-template-columns: repeat(7, 14.28571%);
+  }
+}
+
+@media (min-width: 1600px) {
+  .calendar {
+    grid-template-columns: repeat(8, 12.5%);
+  }
+}
+
+.calendar .text-item {
+  font-size: 1.28571rem;
+  font-weight: 700;
+  line-height: 1.277;
+  letter-spacing: -0.02em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  color: #fff;
+  width: 100%;
+  grid-column: span 2;
+}
+
+@media (min-width: 1025px) {
+  .calendar .text-item {
+    padding: 3rem 5.85714rem;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.214;
+    letter-spacing: -0.02em;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.64286rem;
+    font-weight: 700;
+  }
+}
+
+.calendar .item {
+  padding: 0.14286rem;
+  width: 100%;
+}
+
+@media (min-width: 1025px) {
+  .calendar .item:hover .img {
+    transform: scale(1.05);
+  }
+}
+
+/* Apply to the entire tile when it's disabled */
+.disabled-tile {
+  opacity: 0.5;               /* Reduce opacity to grey out the entire tile */
+  pointer-events: none;       /* Disable any interaction (e.g., clicking) */
+  filter: grayscale(100%);    /* Apply grayscale effect to make the image and text look grey */
+  background-color: #f0f0f0;  /* Optional: Change background color to a light grey for more visibility */
+}
+
+/* Apply additional greyed-out effect to the image */
+.disabled-tile .img img {
+  filter: grayscale(100%);    /* Apply grayscale to the image */
+}
+
+/* Grey out text inside the tile */
+.disabled-tile .promo-info,
+.disabled-tile .description {
+  color: #999;                /* Change text color to grey */
+}
+
+/* Specific styling for a disabled promo link */
+.disabled {
+  pointer-events: none;      /* Disable clicking on the link */
+  cursor: not-allowed;       /* Change cursor to 'not-allowed' */
+}
+
+/* Optional: Add a "Coming Soon" message */
+.coming-soon-message {
+  font-size: 14px;
+  color: #999;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* Apply to past items in the calendar (integrating with the disabled-tile style) */
+.calendar .item.past {
+  pointer-events: none;       /* Disable any interaction for past items */
+  opacity: 0.5;               /* Reduce opacity to make it appear greyed out */
+}
+
+/* Grey out the image of past items in the calendar */
+.calendar .item.past .img {
+  filter: grayscale(100%);    /* Apply grayscale effect to the image */
+}
+
+/* Optional: Dim the image further for past items */
+.calendar .item.past .img:before {
+  opacity: 0.2;               /* Dim the image further */
+}
+
+/* Additional styles for even-numbered items inside the calendar */
+.calendar .item:nth-child(even) .inner {
+  background-color: #26273A;  /* Set a dark background color for even-numbered items */
+}
+
+/* For larger screens, style the even-numbered calendar items differently */
+@media (min-width: 1025px) {
+  .calendar .item:nth-child(even) .inner {
+    border-color: #4B4550;     /* Change border color for larger screens */
+  }
+}
+
+/* Styling for past, even-numbered items in the calendar */
+.calendar .item:nth-child(even).past .inner {
+  background-color: #4B4550;  /* Darker background for past items */
+  border-color: transparent;  /* Remove the border color */
+}
+
+/* Style text color of past, even-numbered items */
+.calendar .item:nth-child(even).past strong,
+.calendar .item:nth-child(even).past span {
+  color: #8F8B92;             /* Lighter color for text */
+}
+
+.calendar .item.active .inner:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-radius: inherit;
+  border: 0.14286rem solid #ec5228;
+  box-shadow: 0rem 0.14286rem 2rem #ec5228;
+}
+
+.calendar .item .inner {
+  position: relative;
+  border-radius: 0.57143rem;
+  cursor: pointer;
+  padding-bottom: 100%;
+  filter: drop-shadow(0rem 0.92857rem 2.64286rem rgba(0, 0, 0, 0.2));
+  border: 1px solid #ffffff;
+}
+
+.calendar .item .content {
+  overflow: hidden;
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  right: 2px;
+  left: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+@media (min-width: 1025px) {
+  .calendar .item .content {
+    will-change: transform;
+  }
+}
+
+.calendar .item .img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: all .5s;
+}
+
+.calendar .item .img:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 2.64286rem;
+  height: 2.64286rem;
+  border-radius: 50%;
+  background-color: #ffffff;
+  z-index: -1;
+}
+
+.calendar .item .img img {
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.calendar .item strong {
+  font-size: 1.28571rem;
+  font-weight: 700;
+  line-height: 1.277;
+  letter-spacing: -0.02em;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-weight: 900;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+@media (min-width: 1025px) {
+  .calendar .item strong {
+    font-size: 1.42857rem;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    top: 0.71429rem;
+    right: 0.71429rem;
+  }
+}
+
+.calendar .item span {
+  font-size: 0.85714rem;
+  line-height: 1.5;
+  letter-spacing: 0;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+@media (min-width: 1025px) {
+  .calendar .item span {
+    font-size: 1.28571rem;
+    font-weight: 700;
+    line-height: 1.277;
+    letter-spacing: -0.02em;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.42;
+    font-size: 1rem;
+    font-weight: 700;
+    font-weight: 900;
+  }
+}
+
+.calendar .item.feature {
+  grid-column: span 2;
+  grid-row: span 2;
+}/* Container for all text items */
+.text-item {
+  display: flex;
+  flex-direction: column; /* Arrange the child elements vertically */
+  gap: 20px; /* Space between elements */
+  width: 100%; /* Make it take full width */
+  background: linear-gradient(180deg, #ec5228, #eb5b00);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+/* Today's Information (Day and Label) */
+.today-info {
+  display: flex;
+  justify-content: space-between; /* Spread the items across the width */
+  align-items: flex-start; /* Align the items to the top */
+}
+
+/* Day styling */
+.day {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: -20px;
+  margin-left: -70px;
+}
+
+/* Label for TODAY */
+.today-label {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: -20px;
+  margin-right: -70px;
+}
+
+/* Day and Month Section and Year */
+.day-month-year {
+  display: flex; /* Place the day-month and year in a row */
+  align-items: center; /* Vertically align */
+  gap: 20px; /* Space between day-month and year */
+}
+
+/* Day and Month Section */
+.day-month {
+  font-size: 70px;
+  font-weight: 500;
+  display: flex; /* Keep day and month inline */
+  gap: 20px; /* Space between the day and month */
+  margin-left: -70px;
+}
+
+/* Styling for Current Day */
+.current-day {
+  font-weight: 700;
+}
+
+/* Styling for Current Month */
+.current-month {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* Year Section */
+.year {
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 30px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  /* Container for all text items */
+  .text-item {
+    width: 80%;
+    grid-column: span 2;
+    background: linear-gradient(180deg, #ec5228, #eb5b00);
+    height:90%;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 20px;
+  }
+
+  /* Today's Information (Day and Label) */
+  .today-info {
+    flex-direction: column; /* Stack vertically on smaller screens */
+    align-items: flex-start;
+  }
+
+  /* Day styling */
+  .day {
+    font-size: 24px; /* Adjust font size */
+    margin-right: auto; /* Remove negative margins */
+    margin-left:10px;
+    margin-top: 10px;
+  }
+
+  /* Label for TODAY */
+  .today-label {
+    font-size: 18px; /* Adjust font size */
+    margin-left: auto; /* Remove negative margins */
+    margin-right:10px;
+  }
+
+  /* Day and Month Section */
+  .day-month {
+    font-size: 50px; /* Adjust font size */
+    margin-left: 0; /* Remove negative margin */
+    gap: 10px; /* Adjust space between day and month */
+  }
+
+  /* Year Section */
+  .year {
+    font-size: 18px; /* Adjust font size */
+    margin-top: 10px; /* Adjust margin */
+  }
+}
+
+/* Extra Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+  /* Container for all text items */
+  .text-item {
+    padding: 10px;
+    grid-column: span 3!important;
+  }
+  .description {
+    font-size: 7px!important;
+    bottom: 5px;
+    padding: 3px;
+    width: 95%;
+    line-height: 1.5;
+  }
+  /* Day styling */
+  .day {
+    font-size: 15px; /* Adjust font size */
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
+  /* Label for TODAY */
+  .today-label {
+    font-size: 12px; /* Adjust font size */
+    margin-left: auto;
+  }
+
+  /* Day and Month Section */
+  .day-month {
+    font-size: 30px; /* Adjust font size */
+    gap: 8px; /* Adjust space between day and month */
+    margin-left: 10px;
+  }
+
+  /* Year Section */
+  .year {
+    font-size: 16px; /* Adjust font size */
+    margin-top: 5px; /* Adjust margin */
+  }
+}
+
+
+
+
+/* Calendar Styles */
+.calendar-page-body {
+  background-color: #ec5228 !important;
+  background-image: url('/assets/images/calenderBack.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Sub-page Header */
+.sub-page-header h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: #ec5228;
+  padding: 30px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.text-item {
+  width: 80%;
+  grid-column: span 2;
+  background: linear-gradient(180deg, #ec5228, #eb5b00);
+  height:90%;
+  margin-top: 20px;
+  display: flex;
+  border-radius: 20px;
+}
+
+/* General styling for calendar items */
+.item {
+  margin-top: 20px;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.disabled-tile {
+  opacity: 0.5;
+}
+
+.promo-info {
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.promo-date {
+  font-weight: bold;
+}
+
+.description {
+  font-size: 14px;
+  color: #333;
+}

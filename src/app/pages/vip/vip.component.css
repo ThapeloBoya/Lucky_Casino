@@ -1,0 +1,378 @@
+/* Sticky Header Container */
+.sticky-header-container {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #fff;
+}
+
+/* Custom Header */
+.custom-header {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+/* Full Header Background Image */
+.full-header-image {
+    width: 100%;
+    height: 900px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* Top Header Image */
+.top-header-image {
+    width: 60%;
+    height: auto;
+    object-fit: contain;
+    position: relative;
+    z-index: 2;
+    top: -10px;
+}
+
+/* Content inside Header */
+.header-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 20px; /* Adds some padding for better spacing */
+}
+
+/* Play Now Button */
+.play-now-btn {
+    background-color: #ec5228; /* Gold button */
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: -50px;
+    text-transform: uppercase;
+}
+
+.play-now-btn:hover {
+    background-color: #eb5b00; /* Slightly darker gold */
+}
+
+/* VIP Club Description */
+.vip-description, .vip-description2 {
+    font-size: 25px;
+    max-width: 100%;
+    line-height: 1.5;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    margin: 30px 0 0 0;
+    padding:0 0 80px 0;
+}
+
+.vip-description2 {
+    display: block; /* Forces the span to break onto a new line */
+    margin-top: 10px; /* Optional: Adds some spacing between the two lines */
+}
+
+/* VIP Benefits Section */
+.vip_benefits {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers vertically */
+    align-items: center; /* Centers horizontally */
+    text-align: center; /* Ensures text is centered */
+    margin-top: 80px; /* Adjust space from the header */
+    padding: 20px;
+    position: relative; /* Ensure it is above other content */
+    z-index: 10; /* Ensure it is above the header image */
+}
+
+.vip_benefits img {
+    width: 50%;
+    margin-bottom: 20px; /* Adds space below the image */
+    margin-top: -30px;
+}
+
+.vip_benefits p {
+    width: 100%;
+    color: #ec5228;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 20px 0 0 0;
+}
+
+/* VIP Contact Section */
+.vip_contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.vip_contact p {
+    font-size: 40px; /* Big text */
+    font-weight: bold;
+    color: #ec5228;
+    margin-bottom: 20px;
+}
+
+.vip_contact button {
+    color: #ec5228;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px 40px;
+    border-radius: 90px;
+    border: 5px solid #ec5228; /* Border color */
+    cursor: pointer;
+    background-color: #fff;
+    margin:20px 0 20px 0;
+}
+
+.vip_contact button:hover {
+
+    border: 5px solid #ec5228; /* Change border on hover */
+    color:#ec5228
+}
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    border:none;
+    padding: 20px;
+    display: flex;
+    align-items: left;
+    gap: 15px;
+  }
+
+  .card-icon img{
+   width:15%
+  }
+
+  .card-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+    color:#ec5228;
+    font-weight: 800;
+  }
+
+  .card-text {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .custom-header {
+        height: 500px;
+    }
+
+    .full-header-image {
+        height: 500px;
+    }
+
+    .top-header-image {
+        max-width: 90%;
+    }
+
+    .play-now-btn {
+        font-size: 24px;
+        padding: 10px 40px;
+        margin-top: -30px;
+    }
+
+    .vip-description, .vip-description2 {
+        font-size: 20px;
+        max-width: 90%;
+    }
+
+    /* Adjustments for VIP Benefits */
+    .vip_benefits {
+        min-height: 40vh; /* Reduces height on smaller screens */
+    }
+
+    .vip_benefits img {
+        width: 70%; /* Makes the image a little larger on tablets */
+    }
+
+    .vip_benefits p {
+        font-size: 22px; /* Adjust font size */
+    }
+
+    /* VIP Contact Adjustments */
+    .vip_contact p {
+        font-size: 35px; /* Slightly smaller text for tablets */
+    }
+
+    .vip_contact button {
+        font-size: 22px;
+        padding: 12px 30px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .custom-header {
+        height: 400px;
+    }
+
+    .full-header-image {
+        height: 400px;
+    }
+
+    .top-header-image {
+        max-width: 95%;
+    }
+
+    .play-now-btn {
+        font-size: 18px;
+        padding: 8px 30px;
+        margin-top: -20px;
+    }
+
+    .vip-description, .vip-description2 {
+        font-size: 16px;
+        max-width: 95%;
+    }
+
+    /* Adjustments for VIP Benefits */
+    .vip_benefits {
+        min-height: 35vh; /* Further reduces height */
+    }
+
+    .vip_benefits img {
+        width: 80%; /* Increases image size on smaller screens */
+    }
+
+    .vip_benefits p {
+        font-size: 18px; /* Adjust font size for mobile */
+    }
+
+    /* VIP Contact Adjustments */
+    .vip_contact p {
+        font-size: 30px; /* Smaller text for mobile */
+    }
+
+    .vip_contact button {
+        font-size: 20px;
+        padding: 10px 25px;
+    }
+    .cards-container {
+        grid-template-columns: 1fr; /* Single card per row for smaller tablets and large phones */
+        width: 80%;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    .card-title {
+        font-size: 18px; /* Further reduce title size */
+    }
+
+    .card-text {
+        font-size: 13px; /* Further reduce text size */
+    }
+}
+
+@media (max-width: 480px) {
+    .custom-header {
+        height: 450px;
+    }
+
+    .full-header-image {
+        height: 450px;
+    }
+
+    .top-header-image {
+       width: 100%;
+      margin-top:50px
+    }
+
+    .play-now-btn {
+        font-size: 16px;
+        padding: 6px 25px;
+        margin-top: 10px;
+    }
+
+    .vip-description {
+        font-size: 10px;
+        
+    }
+
+    .vip-description2 {
+        display: inline; /* Ensures the span stays inline on smaller screens */
+        margin-top: 0; /* Removes the margin-top on mobile */
+        font-size: 12px;
+    }
+
+    .vip_benefits img {
+        width: 90%; /* Makes the image full-width on small screens */
+        margin-top:-150px
+    }
+
+    .vip_benefits p {
+        font-size: 16px; /* Adjust font size for very small screens */
+    }
+
+    /* VIP Contact Adjustments */
+    .vip_contact p {
+        font-size: 25px; /* Even smaller text for small mobile screens */
+    }
+
+    .vip_contact button {
+        font-size: 18px;
+        padding: 8px 20px;
+    }
+    .cards-container {
+        grid-template-columns: 1fr; /* Single card per row for small mobile devices */
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    .card-title {
+        font-size: 16px; /* Smaller title size */
+    }
+
+    .card-text {
+        font-size: 12px; /* Smaller text size */
+    }
+
+    .card-icon img {
+        width: 20%; /* Adjust icon size on small screens */
+    }
+}

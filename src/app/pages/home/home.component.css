@@ -1,0 +1,1033 @@
+/* ✅ Ensure Full Width for the Slider */
+.carousel-slide {
+  position: relative;
+  width: 100%;
+}
+
+
+
+.slider-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0 0 20px 20px;
+}
+
+/* ✅ Position Text Overlay */
+.carousel-slide-content {
+  position: absolute;
+  top: 50%;
+  right: 10%; /* ✅ Align text to the right */
+  transform: translateY(-50%);
+  color: white;
+  text-align: left;
+  max-width: 450px; /* ✅ Prevent overly long text */
+
+}
+
+/* ✅ Highlighted Small Title */
+.slider-subHeading {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ec5228; /* ✅ Gold Color */
+  margin-bottom: 5px;
+
+}
+
+.highlight-text {
+  color: #ec5228;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); /* Adds the drop shadow */
+}
+
+
+/* ✅ Description Below Small Title */
+.slider-description {
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); /* Adds the drop shadow */
+}
+
+/* ✅ Large Headings */
+.slider-heading {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); /* Adds the drop shadow */
+}
+
+.slider-bonus {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); /* Adds the drop shadow */
+}
+
+/* ✅ CTA Button */
+.button-rounded {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+/* ✅ "CLAIM NOW" Button */
+.claim-now {
+  background-color: #ec5228;
+  color: black;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 25px; /* Optional: Adds rounded corners */
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  
+  /* Add drop shadow */
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2); /* Horizontal offset, vertical offset, blur, color */
+}
+
+/* Optional: Hover effect for the button */
+.claim-now:hover {
+  background-color: #e0c10d; /* Darker shade for hover effect */
+  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.3); /* A stronger shadow on hover */
+}
+
+
+
+/* ✅ Main Container */
+.winners-testimonials-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 15px; /* ⬅ Slightly reduced */
+  margin: 0 auto;
+  width: 93%;
+  padding:20px 0;
+}
+
+/* ✅ Recent Winners Section */
+.recent-winners {
+  background: white;
+  width: 38%;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 250px;
+}
+
+/* ✅ Winners Header */
+.recent-winners h2 {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  background: linear-gradient(180deg, #00c853, #008c3a);
+  color: white;
+  padding: 12px;
+  border-radius: 10px 10px 0 0;
+}
+
+/* ✅ Winners Container */
+.winner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* ✅ Winner Card */
+.winner-card {
+  background: white;
+  padding: 10px;
+  border-radius: 12px;
+  text-align: center;
+  width: 150px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  color: black;
+}
+
+/* ✅ Centered Champion Winner */
+.winner-card.champion {
+  background: linear-gradient(45deg, #ffeb3b, #ffc107);
+  transform: scale(1.1);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  width: 110px;
+}
+
+/* ✅ Winner Avatar */
+.winner-avatar {
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+  /* margin-bottom: 8px; */
+}
+/* ✅ Testimonials Section */
+.testimonials {
+  background: linear-gradient(45deg, #ec5228, #eb5b00); /* Orange gradient background */
+ /* Orange gradient background */
+
+  width: 60%; /* ✅ Right Alignment */
+  padding: 30px;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* ✅ Testimonials Header */
+.testimonials h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding:20px 0 0 0;
+}
+
+/* ✅ Testimonial Cards */
+.testimonial-card {
+  background: transparent;
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+/* ✅ Testimonial Header: Name and Location */
+/* ✅ Testimonials Section */
+.testimonials {
+  background: linear-gradient(45deg, #ec5228, #eb5b00); /* Orange gradient background */
+ /* Orange gradient background */
+
+  width: 60%; /* ✅ Right Alignment */
+  padding: 30px;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* ✅ Testimonials Header */
+.testimonials h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* ✅ Testimonial Cards */
+.testimonial-card {
+  background: transparent;
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+/* ✅ Testimonial Header: Name, Location, and Rating */
+.testimonial-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* ✅ Testimonial Info (Name and Location) */
+.testimonial-info {
+  text-align: left;
+  width: 80%; /* Allows space for rating on the right */
+}
+
+/* ✅ Testimonial Name */
+.testimonial-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* ✅ Testimonial Location */
+.testimonial-location {
+  font-size: 14px;
+  color: lightgray;
+}
+
+/* ✅ Star Ratings (Aligned to the right) */
+.rating {
+  font-size: 16px;
+  color: gold;
+  font-weight: bold;
+  text-align: right; /* Align to the far right */
+  width: 20%; /* Ensures the rating stays on the right */
+}
+
+/* ✅ Review message */
+.message {
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+
+/* ✅ Mobile View */
+@media (max-width: 768px) {
+  .winners-testimonials-container {
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .recent-winners,
+  .testimonials {
+    width: 90%;
+    min-height: auto;
+  }
+
+  .winner-container {
+    flex-direction: column;
+  }
+
+  .testimonial-card {
+    width: 90%;
+  }
+}
+
+
+
+.faq-container {
+  max-width: 1200px; /* ✅ Wider */
+  width: 100%;
+  margin: 60px auto;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.faq-header {
+  font-size: 32px;
+  font-weight: bold;
+  color: #eb5b00;
+  margin-bottom: 15px;
+}
+
+.faq-description {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 40px;
+  line-height: 1.8;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.faq-accordion {
+  width: 100%;
+}
+
+.faq-item {
+  width: 100%;
+  background: #f1f1f1;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: none;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  padding: 20px;
+}
+
+.faq-item summary {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  background: #e6e6e6;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.faq-item[open] summary {
+  background: #d5d5d5;
+}
+
+/* ✅ Rotate Arrow When Open */
+.faq-item[open] .faq-arrow {
+  transform: rotate(90deg);
+}
+
+.faq-item summary:hover {
+  background: #cfcfcf;
+}
+
+/* ✅ Arrow Styling */
+.faq-arrow {
+  font-size: 22px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* ✅ FAQ Content */
+.faq-content {
+  padding: 20px;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.8;
+  background: #ffffff;
+}
+/* Special Promotions Section */
+.special-promotions {
+  text-align: center;
+  margin: 40px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Center Carousel */
+.promo-slider {
+  width: 100%;
+  max-width: 1600px;
+  margin: auto;
+}
+
+/* Adjust Individual Slide */
+.promo-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Ensure Images Fit Properly */
+.promo-img {
+  width: 100%;
+  border-radius: 40px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Bullet Navigation Styling */
+.owl-dots {
+  margin-top: 10px;
+  background: #006400 !important;
+}
+
+.owl-dot span {
+  width: 12px !important;
+  height: 12px !important;
+  background: #006400 !important;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.owl-dot.active span {
+  background: #ec5228 !important;
+}
+
+.section-title{
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #eb5b00;
+    padding:30px 0;
+    text-align: center
+}
+
+
+
+
+
+
+
+/* ✅ Responsive Fixes */
+@media (max-width: 1400px) {
+  .faq-container {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .faq-container {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  /* ✅ Ensure Full Width for Mobile Slider */
+  .mobile-slider {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: block !important;
+    overflow: hidden;
+  }
+
+  /* ✅ Make Sure Each Slide is Full Width */
+  .promo-slide {
+    width: 100vw !important; /* ✅ Forces full width */
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* ✅ FORCE IMAGE TO TAKE FULL WIDTH WITHOUT CROPPING */
+  .promo-img {
+    width: 100vw !important;
+    height: auto !important;
+    max-height: 400px;
+    /* object-fit: contain !important;  */
+    border-radius: 0;
+    display: block;
+  }
+
+  /* ✅ Force Owl Carousel to Fit Full Width */
+  .owl-carousel .owl-stage-outer {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    overflow: hidden;
+    display: block !important;
+  }
+
+  /* ✅ Ensure Carousel Slides Fit Full Width */
+  .owl-carousel .owl-stage {
+    display: flex;
+    width: 100vw !important;
+    max-width: 100vw !important;
+  }
+  
+
+  /* ✅ Fix Carousel Items */
+  .owl-carousel .owl-item {
+    width: 100vw !important;
+    max-width: 100vw !important;
+  }
+
+  .faq-header {
+    font-size: 28px;
+  }
+
+  .faq-description {
+    font-size: 16px;
+  }
+
+  .faq-item summary {
+    font-size: 18px;
+    padding: 16px;
+  }
+
+  .faq-content {
+    font-size: 16px;
+  }
+
+  .game-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .game-card {
+    flex: none;
+    width: 90%;
+  }
+
+  .game-overlay {
+    padding: 15px;
+  }
+
+  .game-title {
+    font-size: 18px;
+  }
+
+  .game-button {
+    padding: 10px 25px; /* ✅ Adjust padding for smaller screens */
+    font-size: 12px;
+    right: 15px;
+    bottom: 15px;
+    min-width: 120px; /* ✅ Slightly reduce width for mobile */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* new game/coming soon */
+.image-container {
+  display: flex;
+  justify-content: space-between; /* Space the images apart */
+  gap: 20px; /* Add space between the images */
+  width: 90%;
+  margin: 0 auto; /* Center the container */
+  border-radius: 30px;
+  padding: 20px;
+  
+  }
+  
+  .image-left-container, .image-right-container {
+  position: relative; /* Ensure overlay stays on top of the image */
+  width: 60%; /* Image 1 takes 65% */
+  }
+  
+  .image-right-container {
+  width: 40%; /* Image 2 takes 35% */
+  }
+  
+  .image-left, .image-right {
+  width: 100%!important; /* Images fill their respective containers */
+  height: auto;
+  object-fit: cover; /* Ensures images cover the container without distortion */
+  border-radius: 20px;
+  }
+  
+  /* Overlay that will always stay on the image */
+  .image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+  color: white;
+  padding: 10px;
+  display: flex; /* Use flex to align items horizontally */
+  flex-direction: column; /* Stack text vertically */
+  justify-content: flex-start; /* Align items to the top */
+  align-items: flex-start; /* Align items to the left */
+  height: auto;
+  border-radius: 0 0 20px 20px;
+  margin-bottom:2px;
+  width:98%;
+  }
+  
+  /* Text and button styling */
+  .new-game {
+  font-size: 18px;
+  color: #ec5228;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0; /* Remove padding */
+  padding:0 0 0 20px ;
+  }
+  
+  .game-name {
+  font-size: 20px;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 5px 0 0; /* Add margin to create space between texts */
+  padding:0 0 0 20px ;
+  color:#fff!important
+  }
+  
+  .play-button {
+  background-color: transparent; /* Red color for play button */
+  color: #FFB810;
+  border: #FFB810 2px solid; /* Red border */
+  padding: 8px 50px;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px; /* Position at the bottom */
+  right: 10px; /* Position at the right */
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  }
+  
+  .play-button:hover {
+  background-color: #FFB810; /* Slightly darker on hover */
+  color:#fff
+  }
+  
+
+  /* Responsive design for mobile */
+  @media (max-width: 768px) {
+  .image-container {
+    flex-direction: column; /* Stack images vertically */
+    gap: 10px; /* Reduce gap between images */
+    width: 90%; /* Make container full width */
+    padding: 10px; /* Reduce padding */
+  }
+  
+  .image-left-container, .image-right-container {
+    width: 100%!important; /* Make each image container full width */
+  }
+  
+  .new-game {
+    font-size: 16px; /* Reduce font size for small screens */
+    padding-left: 10px; /* Adjust padding */
+  }
+  
+  .game-name {
+    font-size: 18px; /* Reduce font size for small screens */
+    padding-left: 10px; /* Adjust padding */
+  }
+  
+  .play-button {
+    padding: 6px 30px; /* Reduce button padding */
+    font-size: 14px; /* Reduce font size */
+    bottom: 12px; /* Move button slightly up */
+    right: 5px; /* Move button slightly to the right */
+    border-radius: 20px; /* Reduce border radius */
+    
+  }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+/* Top Winners Section (30%) */
+.top-winners {
+  border-radius: 16px;
+  color: #b71c1c;
+  text-align: center;
+}
+
+.name {
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+.amount {
+  color: #ffc107;
+  font-size: 14px;
+  font-weight: 800;
+  padding: 10px 0;
+}
+
+.top-winners__header h2 {
+  background: linear-gradient(45deg, #ec5228, #eb5b00); /* Orange gradient background */
+ /* Orange gradient background */
+
+  margin: 10px 0;
+  color: #fff;
+  border-radius: 20px;
+  padding: 7px 0;
+  width: 100%;
+  margin-top: -20px;
+}
+
+.bottom-header {
+  padding: 13px;
+  background: linear-gradient(45deg, #ec5228, #eb5b00); /* Orange gradient background */
+ /* Orange gradient background */
+
+  border-radius: 20px;
+}
+
+.all-top-winners {
+  background: #f6f6f6;
+  padding: 20px 0;
+  border-radius: 20px;
+}
+
+/* Winners Grid */
+.winners-column {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 items in a row */
+  gap: 15px;
+  justify-items: center;
+}
+
+/* Winner Card */
+.winner {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Winner Images */
+.winners__game__img {
+  position: relative; /* Make sure the number badge is positioned relative to the image */
+}
+
+.winners__game__img img {
+  width: 60px !important; /* Adjust image size */
+  height: 60px !important; /* Adjust image size */
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px; /* Reduced margin */
+  border: 2px solid #00c853;
+  transition: transform 0.3s ease;
+}
+
+.winners__game__img img:hover {
+  transform: scale(1.1);
+}
+
+/* Winner Rank - Diamond Badge */
+.winner-rank {
+  position: absolute;
+  bottom: 1px; /* Move badge to the bottom of the image */
+  left: 45%;
+  transform: translateX(-50%) rotate(45deg); /* Diamond shape */
+  background: linear-gradient(45deg, #ec5228, #eb5b00); /* Orange gradient background */
+ /* Orange gradient background */
+
+  color: #fff;
+  width: 25px; /* Smaller size */
+  height: 25px; /* Smaller size */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 11px; /* Reduced font size */
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Keep text straight inside the diamond */
+.winner-rank span {
+  transform: rotate(-45deg); /* Rotate text back to normal */
+  display: inline-block;
+}
+
+/* Middle Winner - Ensures Background Covers Lower 60% */
+.middle-winner {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Create the Red Rectangle Background */
+.middle-winner::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70%; /* Covers the lower 70% */
+  background: linear-gradient(45deg, #ec5228, #eb5b00); /* Orange gradient background */
+ /* Orange gradient background */
+
+  z-index: 0; /* Behind content */
+  border-radius: 50px 50px 12px 12px; /* Rounded only at the bottom */
+}
+
+/* Ensure Text and Image Stay Above */
+.middle-winner .name,
+.middle-winner .amount,
+.middle-winner .winners__game__img {
+  position: relative;
+  z-index: 1; /* Keeps text and image above the background */
+  color: white; /* Ensures readability */
+}
+/* Reviews Section (70%) */
+.reviews-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 reviews per row */
+  gap: 20px; /* Space between reviews */
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.reviews {
+  background: linear-gradient(to bottom, #bf2026, #ff4949);
+  border-radius: 30px;
+  text-align: center;
+  padding: 38px;
+  margin-top: 20px;
+  
+}
+
+.reviews h2 {
+  color: #fff;
+  font-weight: bold;
+margin-top: 10px;
+}
+
+/* Review Card */
+.review-card {
+  padding: 10px 10px;
+  border-radius: 12px;
+  text-align: left; /* Align text to the left */
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-style: normal; /* Remove italic style */
+}
+
+/* Header (Author + Source + Stars) */
+.review-header {
+  display: flex;
+  justify-content: space-between; /* Space out author/source and rating */
+  align-items: center;
+  margin-top: 10px;
+
+}
+
+.author-and-source {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.author {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.source {
+  color: #171715;
+  font-size: 12px;
+}
+
+/* Star Rating and Rating Number */
+.stars {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Align the stars and rating to the right */
+}
+
+.star {
+  font-size: 18px;
+  color: #FFD700; /* Gold color for star */
+  margin-right: 20px;
+}
+
+.rating {
+  font-size: 16px;
+  color: #fff; /* Same gold color for the rating */
+  padding:0 3px 0 0;
+}
+
+/* Review Text */
+.review-text {
+  color: #FFF;
+  font-size: 14px;
+  margin-top: 15px; /* Added some space between the text and header */
+}
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack sections */
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+  }
+
+  /* Top Winners Section - Always 3 Columns */
+  .top-winners {
+    width: 100%!important; /* Full width */
+    padding: 20px;
+    text-align: center;
+  }
+
+  .winners-column {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Always 3 winners per row */
+    gap: 10px;
+    justify-items: center;
+  }
+
+  .winner {
+    width: 100%;
+    max-width: 100px; /* Ensure winners fit properly */
+  }
+
+  /* Adjust Winner Image Sizes */
+  .winners__game__img img {
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  /* Winner rank badge adjustments */
+  .winner-rank {
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+  }
+
+  /* Adjust text size */
+  .name {
+    font-size: 10px;
+  }
+
+  .amount {
+    font-size: 12px;
+  }
+}
+
+/* Extra small screens (phones, less than 480px) */
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .winners-column {
+    grid-template-columns: repeat(3, 1fr); /* Always 3 winners per row */
+    gap: 8px;
+  }
+
+  .winner {
+    padding: 8px;
+    max-width: 90px; /* Adjust width to fit mobile */
+  }
+
+  .winners__game__img img {
+    width: 45px !important;
+    height: 45px !important;
+  }
+
+  .winner-rank {
+    width: 18px;
+    height: 18px;
+    font-size: 9px;
+  }
+
+  .name {
+    font-size: 9px;
+  }
+
+  .amount {
+    font-size: 10px;
+  }
+}
+
+
+  
+  
+  
+  
+  
+  

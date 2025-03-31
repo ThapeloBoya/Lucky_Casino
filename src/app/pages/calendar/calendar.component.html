@@ -1,0 +1,77 @@
+<app-header></app-header>
+
+<!-- Display when no promotions are available -->
+<div *ngIf="!promotions || promotions.length === 0"></div>
+
+<div
+  class="calendar-page-body"
+  [ngStyle]="{
+    backgroundImage: 'url(/assets/images/calenderBack.jpeg)'
+  }"
+>
+  <div class="calendar-header" [style.background]="backgroundImg">
+    <div class="page-container">
+      <div class="sub-page-header">
+        <h1>PROMOTIONAL CALENDAR</h1>
+      </div>
+      <div class="page-row">
+        <div class="page-main">
+          <div class="cms-content">
+            <div class="calendar-container">
+              <div class="calendar">
+                <div class="text-item">
+                  <!-- Top left: Day and "TODAY" -->
+                  <div class="today-info">
+                    <span class="day">{{ todayDay }}</span>
+                    <span class="today-label">TODAY</span>
+                  </div>
+                
+                  <!-- Day and Month in the same font size, and Year next to it -->
+                  <div class="day-month-year">
+                    <div class="day-month">
+                      <span class="current-day">{{ todayDate }}</span>
+                      <span class="current-month">{{ todayMonth }}</span>
+                    </div>
+                
+                    <!-- Year in smaller font size -->
+                    <div class="year">
+                      <span>{{ todayYear }}</span>
+                    </div>
+
+                  </div>
+                </div>
+                
+                
+
+                <!-- Loop through promotions and display them -->
+                <div *ngFor="let promo of promotions" class="item" [class.past]="isPastDate(promo.date)">
+                  <div class="inner" [ngClass]="{'disabled-tile': !promo.offer.isAvailable}">
+                    <div class="content">
+                      <div class="img">
+                        <a href="#" (click)="openDialogModal($event, promo)" class="promo-link" [ngClass]="{'disabled': !promo.offer.isAvailable}" [attr.title]="!promo.offer.isAvailable ? 'Promotion coming soon!' : ''">
+                          <img height="100%" width="100%" [src]="promo.offer.backgroundImage" alt="{{ promo.offer.title }}"/>
+                          <div class="promo-info">
+                            <strong class="promo-date">
+                              {{ promo.day }} {{ promo.date | date: 'd' }}
+                            </strong>
+                          </div>
+                          <div class="description">
+                            {{ promo.offer.description }}
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<app-footer></app-footer>
