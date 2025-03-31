@@ -1,0 +1,28 @@
+<div #myDialogLoader></div>
+<h2 *ngIf="!existsHeaderImage">{{ dialogData.headerText }}</h2>
+<div class="dialog-content">
+  <div *ngIf="existsHeaderImage">
+    <button class="modal-close-button" (click)="closeModal()">
+      <div class="close-icon">X</div>
+    </button>
+    <img src="{{ dialogData.headerImageUrl }}" (load)="closeLoader()">
+  </div>
+  <div class="content-container">
+    <h2 *ngIf="existsHeaderImage">{{ dialogData.bodyHeadingText }}</h2>
+    
+    <div *ngIf="existsBodyHtml" class="body-html" [innerHtml]="dialogData.bodyHtmlText"></div>
+    <p>{{ dialogData.bodyText }}</p>
+
+    <div *ngIf="existsFooterText">
+      <button class="button-accent" (click)="LoadRedirectUrls('signup')">JOIN NOW</button>
+      <button class="button-dark" (click)="LoadRedirectUrls('login')">LOGIN</button>
+      <div class="footer-body" [innerHtml]="dialogData.footerBodyText"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer Buttons without Material Components -->
+<div *ngIf="!existsFooterText">
+  <button class="button-accent" (click)="LoadRedirectUrls('signup')">JOIN NOW</button>
+  <button class="button-dark" (click)="LoadRedirectUrls('login')">LOGIN</button>
+</div>

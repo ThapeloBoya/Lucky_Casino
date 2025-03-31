@@ -1,0 +1,115 @@
+/* ✅ Centered and Reduced Width Accordion */
+.text-header {
+  color: #585756;
+  text-align: center;
+  font-size: 20px;
+}
+/* Accordion CSS  */
+.accordion {
+  background: #e8e8e8;
+  border-radius: 20px;
+  border: 0px;
+  font-size: 16px!important;
+  margin: 10px  auto 0;
+  padding: 20px 30px;
+  margin-bottom: 0;
+  cursor: pointer;
+  width:90%;
+}
+/* Apply #e8e8e8 to even accordion items */
+details:nth-child(even) > .accordion {
+background-color: #fff;
+}
+
+/* Apply white to odd accordion items */
+details:nth-child(odd) > .accordion {
+background-color: #e8e8e8;
+}
+
+.page-row{
+  padding:20px 0;
+  margin-bottom: 30px;
+}
+.accordionDrop {
+  padding: 25px 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #d9d9d9;
+  width:89%;
+  margin: 0  auto 0;
+  font-size: 14px;
+  color:#585756
+}
+
+details[open] > summary {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+details[open] > .accordionDrop {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+
+/* ✅ Hide Default Browser Arrow */
+::-webkit-details-marker {
+  display: none;
+}
+
+/* ✅ Accordion Clickable Header */
+details summary {
+  cursor: pointer;
+}
+
+details summary > * {
+  display: inline;
+}
+
+.faq-header {
+  font-family: 'Poppins', sans-serif; /* Add Poppins font */
+  font-size: 32px;
+  font-weight: bold;
+  color: #eb5b00;
+  margin-bottom: 15px;
+}
+
+.faq-description {
+  font-size: 18px;
+  color: #444;
+ 
+  line-height: 1.8;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.faq-container {
+  max-width: 1200px; /* ✅ Wider */
+  width: 100%;
+  margin: 60px auto;
+  /* padding: 30px 20px; */
+  text-align: center;
+}
+
+/* ✅ Mobile Fix: Ensure Accordion Drop is NOT Bigger */
+@media screen and (max-width: 600px) {
+  .accordion {
+    font-size: 18px; /* 🔹 Adjusted for smaller screens */
+    width: 95%; /* 🔹 Increase width slightly for mobile */
+    padding: 20px; /* 🔹 Reduce padding for smaller screens */
+  }
+
+  .accordionDrop {
+    padding: 20px; /* 🔹 Reduce drop content padding */
+    width: 91%; /* 🔹 Match accordion width */
+    max-width: 95%; /* 🔹 Prevent it from being larger */
+  }
+}
+
+.text-headers{
+  font-size: 25px;
+  font-weight:600;
+  color:#353535
+}

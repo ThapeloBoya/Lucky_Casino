@@ -1,0 +1,159 @@
+/* Modal container */
+.dialog-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(180deg, #0e6a38, #1bd06e);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 500px;
+  z-index: 1000;
+  padding: 20px;
+  color: #333;
+  text-align: center;
+  animation: fadeIn 0.3s ease-in-out;
+  max-height: 80%; /* Set the maximum height */
+  height: auto; /* Let the height adjust automatically */
+  overflow-y: auto; /* Make the content scrollable if it exceeds max-height */
+}
+
+/* Target the first <p> tag */
+.body-html {
+  color: #fff !important;
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* Style for the modal image */
+.dialog-content img {
+  width: 100%; /* Make the image fit the width of the modal */
+  height: auto; /* Maintain the aspect ratio */
+  border-radius: 8px; /* Optional: adds rounded corners to the image */
+  object-fit: cover; /* Ensures the image fills the area without distortion */
+  margin-bottom: 20px; /* Optional: adds space below the image */
+}
+
+/* Dark overlay background */
+.dialog-content::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* Close button */
+.modal-close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.close-icon {
+  font-size: 20px;
+  color: #FECC4E;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out;
+}
+
+.close-icon:hover {
+  transform: rotate(90deg);
+  color: #fff;
+}
+
+/* Content container */
+.content-container {
+  padding: 15px;
+  max-height: 60%; /* Allow some space for the footer buttons */
+  overflow-y: auto; /* Make the content scrollable if necessary */
+}
+
+/* Headings */
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #ec5228;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Buttons */
+.button-accent {
+  background: linear-gradient(90deg, #ec5228, #e0a000);
+  color: #0E6A38;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease-in-out;
+  margin: 5px;
+  font-weight: bold;
+}
+
+.button-accent:hover {
+  background-color: #5cb884;
+}
+
+.button-dark {
+  background-color: transparent;
+  color: white;
+  padding: 8px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease-in-out;
+  margin: 5px;
+  font-weight: bold;
+  border: 3px solid #ec5228;
+}
+
+.button-dark:hover {
+  background-color: #0E6A38;
+}
+
+/* Footer styling */
+.footer-body {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #fff;
+  text-align: left!important;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -55%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+  .dialog-content {
+    width: 95%;
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .button-accent,
+  .button-dark {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+}

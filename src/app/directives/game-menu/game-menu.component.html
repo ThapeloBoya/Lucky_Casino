@@ -1,0 +1,30 @@
+<!-- Navigation Bar -->
+<div class="games-section-container">
+  <div class="games-section">
+    <ul class="games-list">
+      <li class="games-item"><a href="#" (click)="setCategory($event, 'new-game')">New game</a></li>
+      <li class="games-item"><a href="#" (click)="setCategory($event, 'crash-games')">crash games</a></li>
+      <li class="games-item"><a href="#" (click)="setCategory($event, 'pokies-slots')">slots</a></li>
+      <li class="games-item"><a href="#" (click)="setCategory($event, 'progressive-jackpot')">progressives</a></li>
+      <li class="games-item"><a href="#" (click)="setCategory($event, 'video-poker')">video poker</a></li>
+      <li class="games-item"><a href="#" (click)="setCategory($event, 'table-games')">table games</a></li>
+      <li class="games-item"><a href="#" (click)="setCategory($event, 'roulette-keno')">Roulette & Keno</a></li>
+    </ul>
+  </div>
+
+  <div class="slider-container">
+    <button class="nav-button left" (click)="moveSlider('left')">&#8592;</button>
+
+    <div class="slider" [ngStyle]="{ transform: getSliderTransform() }">
+      <div *ngFor="let image of images; let i = index" 
+           [ngClass]="getImageClass(i)" 
+           (click)="onImageClick(i)">
+        <img [src]="image" [alt]="'Image ' + (i + 1)">
+      </div>
+    </div>
+
+    
+
+    <button class="nav-button right" (click)="moveSlider('right')">&#8594;</button>
+  </div>
+</div>
